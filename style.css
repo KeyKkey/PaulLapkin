@@ -2,15 +2,22 @@ body{
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
+    color:#000;
+    font-size:16px;
 }
  .container{
      width: 1170px;
      margin: 0 auto;
  }
 
+ ul, li {
+     display:block;
+     padding: 0;
+     margin:0;
+        }
+
  h1, h2, h3, h4, h5, h6 {
      font-weight:900;
-     text-transform:uppercase;
  }
 
  h1{
@@ -21,11 +28,16 @@ border-bottom:3px solid #9ab4be;
 width:640px;
 padding:14px 0;
 margin:0 auto;
+text-transform:uppercase;
+ }
+
+ h2 {
+     font-size: 40px;
+     margin:0;
  }
  h3{
      color:#737373;
      font-size:18px;
-     text-transform:none;
      margin-top:40px;
      margin-bottom: 33px;
  }
@@ -51,6 +63,7 @@ align-items:center;
 .mail{
 color:#fff;
 text-decoration: none;
+font-size:14px;
 }
 
 .offer{
@@ -78,14 +91,12 @@ text-decoration: none;
 }
 .text p {
     color:#7f7f7f;
-    font-size:16px;
     line-height:1.66 em;
 }
 
 .btn{
     background-color:#ff2b4a;
     color:#fff;
-font-size:16px;
 width:202px;
 display:block;
 text-decoration: none;
@@ -98,3 +109,102 @@ padding:12px 0;
 justify-content: space-between;
 padding-top:114px;
 }
+.heading {
+    padding-top:112px;
+    text-align: center;
+}
+
+.heading p{
+    color:#6f6f6f;
+    margin-top:25px;
+}
+
+.process {
+    background-color:#f6f6f6;
+}
+
+.steps{
+display:flex;
+justify-content: space-between;
+margin-top: 60px;
+}
+
+.steps li {
+    width:280px;
+    height:280px;
+    background: #10c6fc;
+    color:white;
+}
+
+.steps li:nth-child(2){
+  background-color:#835aeb ;  
+}
+
+.steps li:nth-child(3){
+    background-color: #002453;
+}
+
+.steps li:nth-child(4){
+    background-color: #ff2b4a;
+}
+
+.steps li div{
+    margin-top:100px;
+    text-align:center;
+}
+
+.row-1 {
+    display:flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.row-1 li{
+    height:280px;
+    width:280px;
+    background: #10c6fc;
+}
+
+.row-1 li:nth-child(2){
+    background-color:#835aeb ;  
+  }
+  
+  .row-1 li:nth-child(3){
+      background-color: #002453;
+  }
+  
+  .row-1 li:nth-child(4){
+      background-color: #ff2b4a;
+  }
+  
+
+  .row-2 {
+    display:flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.row-2 li:first-child{
+    height:280px;
+    width:575px;
+    background: #835aeb;
+}
+
+.row-2 li:nth-child(2){
+    background-color: #002453;
+    height:280px;
+    width:280px;
+}
+
+.row-2 li:nth-child(3){
+    background-color: #ff2b4a;
+    height:280px;
+    width:280px;
+
+}
+
+
+
+
+
+
